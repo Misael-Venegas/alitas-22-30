@@ -21,12 +21,12 @@
             </div>
 
             <div class="col-sm-12 col-md-8 colorLetras pt-2">
-                <p><i class="fab fa-whatsapp"></i> 747 222 1016</p>
-                <p><i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/2230-The-Wings-House-103848521913827" class="colorLetras"> 22/30
+                <p> <label class="colorInconos"><i class="fab fa-whatsapp"></i></label> </i> 747 222 1016</p>
+                <p> <label class="colorInconos"><i class="fab fa-facebook-square"></i></label> <a href="https://www.facebook.com/2230-The-Wings-House-103848521913827" class="colorLetras"> 22/30
                         The Wings House</a>
                 </p>
                 <p>
-                    <i class="fas fa-map-marker-alt"></i> Avenida Lázaro Cárdenas 37 39080 Chilpancingo de los Bravo, México
+                    <label class="colorInconos"> <i class="fas fa-map-marker-alt"></i></label> Avenida Lázaro Cárdenas 37 39080 Chilpancingo de los Bravo, México
                 </p>
             </div>
         </div>
@@ -34,7 +34,7 @@
         <div class="colorLetras pt-2 text-center">
             <div class="card colorCard">
                 <div class="card-header titulos" id="toggleAlitas">
-                    ALITAS <i class="fas fa-angle-down float-end"></i>
+                    ALITAS <i class="fas fa-plus float-end"></i>
                 </div>
                 <div class="card-body">
                     <div class="targetAlitas">
@@ -48,6 +48,27 @@
                                 <p class="subtitulos">ESPECIALES </p>
                                 <p class="textoMenu"> 6 PIEZAS ------------------- $95</p>
                                 <p class="textoMenu"> 12 PIEZAS ------------------- $170</p>
+                            </div>
+                        </div>
+                        <p class="titulos">SABORES</p>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 ">
+                                <p class="subtitulos"> DULCES </p>
+
+                                <p class="textoMenu">BBQ</p>
+                                <p class="textoMenu">MANGO</p>
+                                <p class="textoMenu">AJO PARMESANO</p>
+                                <p class="textoMenu">LEMON PEPPER</p>
+                                <p class="textoMenu">MOSTAZA-MIEL</p>
+                                <p class="textoMenu">TAMARINDO</p>
+                            </div>
+
+                            <div class="col-sm-12 col-md-4 ">
+                                <p class="subtitulos"> INTERMEDIO </p>
+                            </div>
+
+                            <div class="col-sm-12 col-md-4 ">
+                                <p class="subtitulos"> PICANTE </p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +87,7 @@
 <script>
     $(document).ready(function() {
         $('#toggleAlitas').click(function() {
-            $('.targetAlitas').toggle(1000)
+            $('.targetAlitas').toggle(500)
         })
     })
 </script>
