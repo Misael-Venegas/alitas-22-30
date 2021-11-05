@@ -32,20 +32,23 @@
         </div>
 
         <div class="colorLetras pt-2 text-center">
-            <p class="titulos">ALITAS</p>
             <div class="card colorCard">
+                <div class="card-header titulos">
+                    ALITAS <i class="fas fa-angle-down float-end" id="toggle"></i>
+                </div>
                 <div class="card-body">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 text-center">
-                            <p class="subtitulos">NORMALES </p>
-                            <p class="textoMenu"> 6 PIEZAS -------------------- $75</p>
-                            <p class="textoMenu"> 12 PIEZAS ------------------- $150</p>
-                        </div>
-                        <div class="col-sm-12 col-md-6 text-center">
-                            <p class="subtitulos">ESPECIALES </p>
-
-                            <p class="textoMenu"> 6 PIEZAS ------------------- $95</p>
-                            <p class="textoMenu"> 12 PIEZAS ------------------- $170</p>
+                    <div class="target">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 text-center">
+                                <p class="subtitulos">NORMALES </p>
+                                <p class="textoMenu"> 6 PIEZAS -------------------- $75</p>
+                                <p class="textoMenu"> 12 PIEZAS ------------------- $150</p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 text-center">
+                                <p class="subtitulos">ESPECIALES </p>
+                                <p class="textoMenu"> 6 PIEZAS ------------------- $95</p>
+                                <p class="textoMenu"> 12 PIEZAS ------------------- $170</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,8 +59,16 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </body>
 
+<script>
+    $(document).ready(function() {
+        $('#toggle').click(function() {
+            $('.target').toggle(1000)
+        })
+    })
+</script>
 
 </html>

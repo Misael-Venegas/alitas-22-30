@@ -3,7 +3,7 @@
 }
 
 .colorCard {
-    background-color: #3A3939;
+    background-color: #302f2f;
 }
 
 .colorLetras {
@@ -23,4 +23,8 @@
 
 .textoMenu {
     color: white;
+}
+
+.target {
+    display: none;
 }
