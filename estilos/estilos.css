@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+.colorCard {
+    background-color: rgb(73, 72, 72);
+}
+
 .colorLetras {
     color: #CDB863;
     font-size: large;
